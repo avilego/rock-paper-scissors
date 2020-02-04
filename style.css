@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Covered By Your Grace', cursive;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 100px;
+    color: #526878;
+}
+
+.icon {
+    width: 100px;
+    margin: 0 40px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+img.icon:hover {
+    transform: rotate(20deg) scale(2, 2) translate(8px, 10px);
+}
+
+img.icon:active {
+    transform: scale(0.5);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.board p {
+    font-size: 80px;
+}
+
+.board img {
+    width: 150px;
+}
+
+.middle {
+    margin: 0 auto;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.middle p {
+    font-size: 200px;
+    color: #526878;
+
+}
+
+.marcador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marcador p {
+    font-size: 80px;
+}
+
+.tabla {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marcador img {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0 30px;
+}
